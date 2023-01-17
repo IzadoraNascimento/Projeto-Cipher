@@ -1,0 +1,25 @@
+body{
+  background-color: rgb(201, 203, 203);
+  
+}
+
+
+#Menu {
+  background-color: rgb(123, 197, 224);
+}
+
+#Menu ul li {
+  display: inline;
+}
+
+#Menu ul li a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  transition: background 3s;
+}
+
+#Menu ul li a:hover {
+  background-color: rgb(2, 1, 43);
+}
