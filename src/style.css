@@ -1,25 +1,55 @@
-body{
-  background-color: rgb(201, 203, 203);
-  
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #fcf5eb;
 }
 
-
-#Menu {
-  background-color: rgb(123, 197, 224);
+.Center{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 2%;
 }
 
-#Menu ul li {
-  display: inline;
+body,header{
+  height: 200px;
+  padding: 20px 0;
 }
 
-#Menu ul li a {
-  display: inline-block;
-  color: #fff;
+html,body{
+  height: 100%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.Logo{
+  width: 50%;
+}
+
+.Menu{
+  width: 50%;
+  text-align: right;
+  padding-top: 30px;
+}
+
+.Menu a{
+  color: black;
   text-decoration: none;
-  padding: 10px;
-  transition: background 3s;
+  font-weight: bold;
+  margin-right: 15px;
 }
 
-#Menu ul li a:hover {
-  background-color: rgb(2, 1, 43);
+section.Text{
+  width: 500px;
+  margin: auto;
+
+}
+
+footer{
+  width: 500px;
+  margin: auto;
+  margin-top: 200px;
 }
