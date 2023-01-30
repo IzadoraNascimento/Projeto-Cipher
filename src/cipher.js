@@ -1,6 +1,6 @@
 const cipher = {
   encode: function (chave, texto){
-    if (texto,chave == null && texto,chave == undefined && texto,chave == 0) {
+    if (texto === "" || chave === "") {
       alert("Preencha todos os campos");
     }
     
@@ -21,9 +21,10 @@ const cipher = {
   },
 
   decode: function (chave,texto){
-    if (typeof texto !== "string" || typeof chave !== "number" || texto === "" || chave === 0){
-      alert("Preencha todos os campos");
+    if (chave === "" || texto === "") {
+      alert("Prencha todos os campos");
     }
+    
 
     let textoDescodificado = "";
     texto = texto.toUpperCase();
@@ -39,11 +40,7 @@ const cipher = {
       }
     }
     return textoDescodificado;
-  },
-
-
-
-
+  },  
 };
 
 export default cipher;
