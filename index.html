@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Caesar Cipher</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+        <nav>
+        <div class="Logo"><img src="Cadeado.png" alt="Cadeado"></div>
+        <div class="Menu">
+          <a href="#">Inicio</a>
+          <a href="#">Sobre</a>
+          <a href="#">Contato</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="Text">
+        <div class="Paragrafo">
+          <h1>Cifra</h1>
+          <br/>
+          <p>Criptografa o texo a partir de uma chave. Para descriptografar será necessário a mesma chave que gerou.</p>
+        </div>
+  
+        <div class="Number">
+          <p>Chave: <input type="number" id="Key" min="1" max="25"></p> 
+        </div>
+  
+        <div class="Caixa-de-texto1">
+          <textarea id="area1" placeholder="Digite sua mensagem"></textarea>
+          <br/>
+          <button id="Decode">Criptografar</button>
+        </div>
+  
+        <div class="Caixa-de-texto2">
+          <textarea id="area2" placeholder="Digite sua mensagem"></textarea>
+          <br/>
+          <button id="Encode">Descriptografar</button>
+        </div>
+  
+      </section>
+    </main>
+    
+    <footer>
+      <p>2023 - Todos os direitos reservados a Izadora Nascimento.</p>
+    </footer>
+
+    
+
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
